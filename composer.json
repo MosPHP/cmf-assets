@@ -1,0 +1,21 @@
+{
+  "name": "mosphp/cmf-assets",
+  "description": "MosPHP cmf-assets.",
+  "type": "library",
+  "keywords": [
+    "php",
+    "MosPHP",
+    "framework"
+  ],
+  "license": "MIT",
+  "homepage": "https://www.makun.com",
+  "authors": [
+    {
+      "name": "Makun",
+      "email": "code@makun.com"
+    }
+  ],
+  "post-autoload-dump": [
+    "@php mos.php asset"
+  ]
+}
