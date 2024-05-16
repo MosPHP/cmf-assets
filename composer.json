@@ -15,7 +15,9 @@
       "email": "code@makun.com"
     }
   ],
-  "post-autoload-dump": [
-    "@php mos.php asset"
-  ]
+  "scripts": {
+    "post-autoload-dump": [
+      "@php mos.php asset"
+    ]
+  }
 }
