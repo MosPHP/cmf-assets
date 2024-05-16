@@ -15,4 +15,6 @@ if(is_dir($sourceDir)){
     } else {
         echo "移动静态文件失败\n";
     }
+}else{
+    echo "静态资源不存在\n";
 }

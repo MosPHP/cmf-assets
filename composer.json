@@ -16,6 +16,12 @@
     }
   ],
   "scripts": {
+    "post-install-cmd": [
+      "php mos.php"
+    ],
+    "post-update-cmd": [
+      "php mos.php"
+    ],
     "post-autoload-dump": [
       "php mos.php"
     ]
