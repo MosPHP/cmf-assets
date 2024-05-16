@@ -1,6 +1,7 @@
+#!/usr/bin/env php
 <?php
 //移动静态资源到 public/asset/mos/目录下
-$sourceDir = __DIR__.'/assets';
+$sourceDir = __DIR__.'/mos';
 $destinationDir = __DIR__.'/../../../public/asset/';
 
 // 确保目标目录存在
