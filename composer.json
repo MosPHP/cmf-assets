@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "post-autoload-dump": [
-      "@php run"
+      "php mos.php"
     ]
   }
 }
